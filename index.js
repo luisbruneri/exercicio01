@@ -64,4 +64,4 @@ server.delete('/tarefa/:id', async function(request, response)
 
 
 //ouvir a porta do servidor
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
