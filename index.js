@@ -4,10 +4,9 @@ const server = express();
 
 //Declarando uma variável para as tarefas cotidianas
 var tarefas = [
-    id: 1,
+    {id: 1,
     descricao: "Comprar pão",
-    finalizado: false
-
+    finalizado: false}
 ];
 
 //Instruindo o servidor a retornar todos os dados da URL em JSON
